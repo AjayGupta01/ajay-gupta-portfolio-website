@@ -110,13 +110,13 @@ FastAPI (Python) • REST APIs • GraphQL • API Design • Authentication Sys
 Clean Architecture • Multi-Modular Design • SOLID Principles • Dependency Injection • Design Patterns • Performance Optimization
 
 **Tools & Technologies:**  
-Firebase • Room Database • Git/GitHub • Gradle Build Optimization • CI/CD • ATS Systems • Neon for backend hosting
+Android Studio • Xcode • Docker • Firebase • PostgreSQL • Git/GitHub • Gradle Build Optimization • CI/CD • Postman • Neon for backend hosting
 
 **AI & Innovation:**  
 AI Integration • AI-Powered Product Development • Machine Learning APIs • Intelligent User Experiences
 
 **Languages:**  
-Kotlin (Expert) • Python (Expert) • SQL • Postgres
+Kotlin (Expert) • Python (Expert) • HTML (Medium) • CSS (Basic)
 
 **Spoken Languages:**  
 English (Fluent) • Hindi (Fluent) • Gujarati (Fluent)
