@@ -111,6 +111,22 @@ body {
     width: 100%;
 }
 
+.nav-resume {
+    background: var(--primary-color);
+    padding: 8px 16px !important;
+    border-radius: 20px;
+    color: white !important;
+}
+
+.nav-resume:hover {
+    background: #2980b9;
+    color: white !important;
+}
+
+.nav-resume::after {
+    display: none;
+}
+
 .nav-toggle {
     display: none;
     flex-direction: column;
