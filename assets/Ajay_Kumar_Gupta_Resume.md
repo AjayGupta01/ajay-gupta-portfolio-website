@@ -49,7 +49,7 @@ Internal KMP application built from ground up during company tenure.
 ## SELF-INITIATED PROJECTS
 
 ### **AI Resume Builder** | Dec 2025 – Present  
-📱 Link: [Play Store (Internal Testing)](https://play.google.com/store/apps/details?id=com.ajay.airesumebuilder) | Link: [Frontend Repo](https://github.com/AjayGupta01/AIResumeBuilder) | Link: [Backend Repo](https://github.com/AjayGupta01/ai-resume-builder-backend)
+📱 Link: [Play Store (Internal Testing)](https://play.google.com/store/apps/details?id=com.ajay.airesumebuilder) | Link: [Backend Repo](https://github.com/AjayGupta01/ai-resume-builder-backend-public)
 
 **Flagship AI-powered, ATS-friendly resume builder** designed to help users create professional resumes and prepare for interviews using modern AI systems.
 
