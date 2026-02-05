@@ -120,6 +120,7 @@ body {
     padding: 8px 16px !important;
     border-radius: 20px;
     color: white !important;
+    text-decoration: none;
 }
 
 .nav-resume:hover {
@@ -129,6 +130,13 @@ body {
 
 .nav-resume::after {
     display: none;
+}
+
+.nav-resume-mobile {
+    display: none;
+    margin-left: auto;
+    margin-right: 15px;
+    text-decoration: none;
 }
 
 .nav-toggle {
@@ -883,7 +891,22 @@ body {
 }
 
 /* ===== Responsive Design ===== */
+
+
+.nav-resume-mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
+    .nav-resume-mobile {
+        display: flex;
+    }
+
+    /* Hide the resume button inside the menu to avoid duplication */
+    .nav-menu .nav-resume {
+        display: none;
+    }
+
     .nav-menu {
         position: fixed;
         top: 70px;

@@ -10,9 +10,12 @@ import os
 async def generate_pdf():
     """Generate high-quality PDF from HTML resume"""
     
-    # Get the absolute path to the HTML file
-    html_file = os.path.abspath("Ajay_Kumar_Gupta_Resume.html")
-    pdf_file = os.path.abspath("Ajay_Kumar_Gupta_Resume.pdf")
+    # Get the directory where the script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Get the absolute path to the HTML file (assuming it's in the same directory as the script)
+    html_file = os.path.join(script_dir, "Ajay_Kumar_Gupta_Resume.html")
+    pdf_file = os.path.join(script_dir, "Ajay_Kumar_Gupta_Resume.pdf")
     
     print(f"📄 Converting HTML to PDF...")
     print(f"   Input:  {html_file}")

@@ -4,6 +4,7 @@
 
 📍 Chhatral, Gandhinagar, Gujarat, India  
 📧 ajaygupta292002@gmail.com  
+📞 Contact: 9510326778  
 🔗 Link: [LinkedIn](https://www.linkedin.com/in/ajay-gupta2002/) | Link: [GitHub](https://github.com/AjayGupta01)  
 🌐 Portfolio: [ajay-gupta-portfolio.onrender.com](https://ajay-gupta-portfolio.onrender.com)
 
@@ -104,7 +105,7 @@ Productivity application built and launched independently from ideation to Play 
 Kotlin Multiplatform (KMP) • Compose Multiplatform (CMP) • Native Android • Jetpack Compose • iOS Development • SwiftUI • Cross-Platform Architecture
 
 **Backend & APIs:**  
-FastAPI (Python) • REST APIs • GraphQL • API Design • Authentication Systems • Scalable Backend Architecture
+FastAPI (Python) • REST API • GraphQL • API Design • Authentication Systems • Scalable Backend Architecture
 
 **Architecture & Design:**  
 Clean Architecture • Multi-Modular Design • SOLID Principles • Dependency Injection • Design Patterns • Performance Optimization

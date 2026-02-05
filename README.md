@@ -98,6 +98,40 @@ Place PDFs, resumes, etc. in `assets/` folder
 - **Contact** - Contact information and social links
 - **Resume** - Downloadable HTML resume
 
+
+
+---
+Setup
+
+1. Install Dependencies
+Ensure you have Python 3.10+ installed. Then run:
+## Create virtual environment (optional but recommended)
+```commandline
+python3 -m venv venv
+source venv/bin/activate  
+On Windows: venv\Scripts\activate
+```
+r
+
+## Install requirements
+```commandline
+pip install -r requirements.txt
+```
+
+2. Install Browser Binaries (Critical Step)
+The PDF generator uses Playwright, which requires specific browser binaries that are NOT installed by pip.
+
+```commandline
+playwright install chromium
+```
+If you skip this step, the PDF generation script will fail with a "Executable doesn't exist" error.
+
+3. Generate Resume PDF
+To generate a new PDF from the assets/Ajay_Kumar_Gupta_Resume.html file:
+```commandline
+python assets/generate_high_quality_pdf.py
+```
+
 ---
 
 ## 📧 Contact
