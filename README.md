@@ -4,28 +4,6 @@ Professional portfolio website showcasing mobile development expertise, projects
 
 **Live Site:** [https://ajay-gupta-portfolio.onrender.com](https://ajay-gupta-portfolio.onrender.com)
 
----
-
-## 📁 Project Structure
-
-```
-my-portfolio-website/
-│
-├── css/                           # Stylesheets
-│   └── style.css                  # Main styling (dark/light theme)
-│
-├── js/                            # JavaScript files
-│   └── script.js                  # Interactivity & theme toggle
-│
-├── images/                        # Image assets
-│   └── profile.jpg                # Profile photo
-│
-├── assets/                        # Resume files
-│   ├── Ajay_Kumar_Gupta_Resume.md        # Markdown resume
-│   └── Ajay_Kumar_Gupta_Resume.html      # HTML resume (downloadable)
-│
-└── index.html                     # Main portfolio page
-```
 
 ---
 
@@ -136,7 +114,6 @@ python assets/generate_high_quality_pdf.py
 
 ## 📧 Contact
 
-- **Email:** ajaygupta292002@gmail.com
 - **LinkedIn:** [linkedin.com/in/ajay-gupta2002](https://www.linkedin.com/in/ajay-gupta2002/)
 - **GitHub:** [github.com/AjayGupta01](https://github.com/AjayGupta01)
 - **Portfolio:** [ajay-gupta-portfolio.onrender.com](https://ajay-gupta-portfolio.onrender.com)
