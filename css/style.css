@@ -703,7 +703,7 @@ body {
 
 .playstore-link {
     margin-top: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .btn-playstore {
@@ -808,6 +808,7 @@ body {
     justify-content: center;
     gap: 1rem;
     color: var(--text-secondary);
+    margin-bottom: 1rem;
 }
 
 .contact-item svg {
@@ -830,6 +831,52 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+/* Center contact text */
+.contact-text-center {
+    text-align: center;
+    margin: 0 auto 1rem;
+    max-width: 700px;
+}
+
+/* Contact icon row */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+}
+
+/* Icon button */
+.contact-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--dark-card);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    transition: var(--transition);
+}
+
+/* SVG consistency fix (important for Gmail icon) */
+.icon-svg {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    box-sizing: content-box;
+}
+
+/* Hover effect */
+.contact-icon:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(52, 152, 219, 0.25);
+}
+
 
 /* ===== Footer ===== */
 .footer {
